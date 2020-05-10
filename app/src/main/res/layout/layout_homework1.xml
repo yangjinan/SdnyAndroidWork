@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="播放"
+        android:id="@+id/ch12_2_start"
+        android:onClick="ch12_2_start"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="暂停"
+        android:id="@+id/ch12_2_pause"
+        android:onClick="ch12_2_pause"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="停止"
+        android:id="@+id/ch12_2_stop"
+        android:onClick="ch12_2_stop"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="停止服务"
+        android:id="@+id/ch12_2_stopservice"
+        android:onClick="ch12_2_stopservice"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="绑定"
+        android:id="@+id/ch12_2_bind"
+        android:onClick="bindClick"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="BIND播放"
+        android:id="@+id/ch12_2_bindstart"
+        android:onClick="bindClick"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="BIND暂停"
+        android:id="@+id/ch12_2_bindpause"
+        android:onClick="bindClick"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="BIND停止"
+        android:id="@+id/ch12_2_bindstop"
+        android:onClick="bindClick"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="解绑"
+        android:id="@+id/ch12_2_ubind"
+        android:onClick="bindClick"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+

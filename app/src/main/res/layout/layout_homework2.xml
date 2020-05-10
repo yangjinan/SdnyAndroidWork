@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TableRow>
+
+        <TextView android:text="姓名：" />
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="年龄：" />
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="身高：" />
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="insert"
+            android:text="添加数据" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="show"
+            android:text="全部显示" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clear"
+            android:text="清除显示" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:text="全部删除"
+            android:onClick="delete_all"
+            android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="ID：" />
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="select"
+            android:text="ID查询" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:text="ID删除"
+            android:onClick="delete"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="modify"
+            android:text="ID更新" />
+    </TableRow>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/ch14_1_tv"
+        android:layout_height="match_parent" />
+
+
+
+</TableLayout>
